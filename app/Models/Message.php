@@ -10,7 +10,9 @@ class Message extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
-        'message',
+        'username',
+        'userobject',
+        'usermessage',
+        'img',
     ];
 }
