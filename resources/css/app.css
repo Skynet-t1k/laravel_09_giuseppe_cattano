@@ -11,18 +11,16 @@
 }
 
 /* Navbar */
-.navbar{
-    height: 80px;
+ .navbar{
+    min-height: 80px;
     border-radius: 20px;
     min-width: 60%;
+    margin-top: 50px;
     
-}
-.navbar-nav .nav-link {
-    transition: border-radius 0s;
 }
 
 .nav-bg{
-    background-color: #1F517E;
+    background-color: #1F517E !important;
 }
 
 .nav-link{
@@ -30,6 +28,8 @@
     font-size: 1.5rem;
     margin: 0px 20px 0px 20px;
     border: 1px solid #1F517E;
+    transition: border-radius 0s;
+    padding: 8px;
 }
 
 .nav-link:hover{
@@ -37,7 +37,7 @@
     background-color: orange;
     border: 1px solid orange;
     border-radius: 10px;
-}
+} 
 
 .active{
     color: #EADFC2 !important;
@@ -48,6 +48,17 @@
     background-color: #1F517E;
     border: 1px solid #1F517E;
 }
+
+.navbar-toggler {
+    color: orange;
+    background-color: orange;
+}
+
+.navbar-toggler.collapsed {
+    color: orange;
+    background-color: orange;
+}
+
 
 
 /* welcome view */
@@ -67,6 +78,12 @@
 .form-control {
     background-color: #f8f9fa;
 
+}
+
+/* register.blade  */
+.formregistrati{
+
+    width: 500px;
 }
 
 

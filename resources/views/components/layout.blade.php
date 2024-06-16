@@ -8,9 +8,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <div class="bg flex-column align-items-center">
 
+    <div class="bg flex-column align-items-center">
+        
         <x-navbar />
+        
 
         {{$slot}}
 
