@@ -8,6 +8,9 @@ use App\Http\Requests\MessageRequest;
 
 class MessageController extends Controller
 {
+
+
+
     public function message_create()
     {
         return view('message.create');
